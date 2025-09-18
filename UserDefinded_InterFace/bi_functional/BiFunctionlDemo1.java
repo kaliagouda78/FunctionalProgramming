@@ -8,8 +8,7 @@ public class BiFunctionlDemo1 {
 		BiFunction<String, String, String> returnStringType=(str1,str2)->str1+str2;
 		System.out.println("str_conn :"+returnStringType.apply("hello", "java"));
 		BiFunction< String, String,Integer> returnIntegerType=(Str1,Str2)->Str1.length()+Str2.length();
-
-			System.out.println("Length of two word is :"+returnIntegerType.apply("kalia", "Gouda"));	
+		System.out.println("Length of two word is :"+returnIntegerType.apply("kalia", "Gouda"));	
 	}
 
 }
